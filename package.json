@@ -9,8 +9,9 @@
   },
 
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
+
   "dependencies": {
     "@anthropic-ai/sdk": "^0.19.1",
     "cors": "^2.8.5",
