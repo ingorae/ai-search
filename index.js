@@ -32,4 +32,4 @@ app.post('/search', async function(req, res) {
   res.json({"assistant": search_result})
 })
 
-app.listen(8000)
+app.listen(3000)
