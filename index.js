@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', function(req, res) {
-  res.send('Hello World')
+  res.send('안녕')
 })
 
 app.post('/search', async function(req, res) {
